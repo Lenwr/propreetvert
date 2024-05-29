@@ -9,8 +9,8 @@ function Card({picture, title, texte}) {
                 <span className="p-4 bg-[#EAEFFF] rounded-full">
                     <Image className=" w-[2em]  " src={picture} alt="" />
                 </span>
-                <h1 className=" text-black  text-[16px] font-bold mt-4">{title}</h1>
-                <p className="mt-4 text-center md:text-[12px]  "> {texte}</p>
+                <h1 className=" md:text-black  text-[16px] text-primary font-bold mt-4">{title}</h1>
+                <p className="mt-4 text-justify md:text-center md:text-[12px]  "> {texte}</p>
             </div>
         </div>
     );

@@ -61,10 +61,9 @@ export const valeurs = [
     {
         icon: engagement,
         title: 'Notre Engagement',
-        texte: 'Propre et Vert s’engage à :\n' +
-            '\n' +
-            '\t•\tRéduire notre empreinte écologique en utilisant des produits et techniques durables.\n' +
-            '\t•\tFavoriser la réinsertion professionnelle des personnes en difficulté via des partenariats avec des structures d’insertion par l’activité économique (IAE).'  },
+        texte:
+            'Réduire notre empreinte écologique en utilisant des produits et techniques durables.\n' +
+            'Favoriser la réinsertion professionnelle des personnes en difficulté via des partenariats avec des structures d’insertion par l’activité économique (IAE).'  },
     {
         icon: mission,
         title: 'Mission',
