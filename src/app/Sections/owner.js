@@ -7,19 +7,15 @@ import '../globals.css'
 function Owner(props) {
     return (
         <div className="md:h-screen mt-8 md:mt-0 md:pt-[8%]  flex item-center">
-          <div className="card md:w-[90%] w-auto md:h-[80%] flex items-center bg-gradient-to-r from-primary to-green-400 md:rounded-b-[4em] shadow-2xl  flex flex-col md:flex-row">
+          <div className="card md:w-[90%] w-auto md:h-[80%] flex items-center bg-primary md:rounded-b-[4em] shadow-2xl  flex flex-col md:flex-row">
               <div className="md:w-[60%] flex justify-center ">
                   <div className="md:w-[80%] px-4 flex flex-col pr-10 p-4 flex flex-col  leading-normal ">
                   <span className=" flex w-[57px] flex-row">
                       <Image className="mr-2" src={quote} alt="quote" />
                         <Image src={quote} alt="quote" />
                       </span>
-                        <h1 className=" berkshire-swash-regular leading-normal  py-4 text-secondary text-[32px] md:text-l" >
-                              C'est la force de la passion qui crée la force de la règle
-                          </h1>
                       <h1 className="text-black py-2 text-justify md:text-l">
-                          "C'est la force de la passion qui crée la force de la règle" cette citation est ce qui s'approche du mieux
-                          de la passion que j'ai de l'écologie et du green business. Par ce que je crois que tous ensemble, on
+                          Par ce que je crois que tous ensemble, on
                           peut changer les règles. Je m'appelle Aicha Sylla, je suis une jeune diplômée passionnée par le
                           marketing digital, l'entrepreneuriat et les valeurs écologiques et solidaires. Je suis convaincu
                           que l'alliance entre ces domaines peut créer un impact positif sur la société et
