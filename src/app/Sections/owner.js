@@ -6,8 +6,8 @@ import '../globals.css'
 
 function Owner(props) {
     return (
-        <div className="md:h-screen md:pt-[8%]  flex item-center">
-          <div className="card md:w-[90%] w-auto md:h-[80%] flex items-center bg-gradient-to-r from-primary to-green-400 rounded-b-[4em] shadow-2xl  flex flex-col md:flex-row">
+        <div className="md:h-screen mt-8 md:mt-0 md:pt-[8%]  flex item-center">
+          <div className="card md:w-[90%] w-auto md:h-[80%] flex items-center bg-gradient-to-r from-primary to-green-400 md:rounded-b-[4em] shadow-2xl  flex flex-col md:flex-row">
               <div className="md:w-[60%] flex justify-center ">
                   <div className="md:w-[80%] px-4 flex flex-col pr-10 p-4 flex flex-col  leading-normal ">
                   <span className=" flex w-[57px] flex-row">
