@@ -20,7 +20,7 @@ function WhyUs(props) {
                 ))}
             </div>
             <span className="flex justify-end mr-8">
-                 <Link href="#banner" >
+                 <Link href="" >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"

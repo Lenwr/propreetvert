@@ -1,4 +1,4 @@
-import {flower, pencil, penta} from "@/app/assets";
+import {engagement, flower, mission, pencil, penta, vision} from "@/app/assets";
 
 export const menuNavbar = [
     {
@@ -17,6 +17,10 @@ export const menuNavbar = [
 export const appText = {
     title: 'Propre et vert',
     subtitle: ' Nettoyage Écologique B2B et Réinsertion Sociale',
+    introduction:'Bienvenue chez Propre et Vert ! Nous sommes une entreprise de nettoyage écologique engagée à\n' +
+        'faire une différence positive pour notre planète et notre société. Notre mission est de fournir des\n' +
+        'services de nettoyage de haute qualité tout en contribuant à la réinsertion sociale des personnes\n' +
+        'éloignées du marché du travail via des partenariats avec les acteurs de l’IAE .',
     ourGoal: 'Bienvenue chez Propre et Vert ! Nous sommes une entreprise de nettoyage écologique engagée à\n' +
         'faire une différence positive pour notre planète et notre société. Notre mission est de fournir des\n' +
         'services de nettoyage de haute qualité tout en contribuant à la réinsertion sociale des personnes\n' +
@@ -52,6 +56,23 @@ export const services = [
         title: 'Réinsertion Sociale',
         texte: 'Nous mettons l’accent sur la réinsertion sociale en offrant des opportunités d’emploi à ceux qui cherchent à rebondir dans la vie via nos partenariats avec les IAE de la région.',
     }
+]
+export const valeurs = [
+    {
+        icon: engagement,
+        title: 'Notre Engagement',
+        texte: 'Propre et Vert s’engage à :\n' +
+            '\n' +
+            '\t•\tRéduire notre empreinte écologique en utilisant des produits et techniques durables.\n' +
+            '\t•\tFavoriser la réinsertion professionnelle des personnes en difficulté via des partenariats avec des structures d’insertion par l’activité économique (IAE).'  },
+    {
+        icon: mission,
+        title: 'Mission',
+        texte: 'Chez Propre et Vert, notre mission est de fournir des services de nettoyage écologique de haute qualité tout en contribuant activement à la réinsertion professionnelle des personnes éloignées du marché du travail. Nous nous engageons à créer des environnements propres, sains et durables pour les entreprises et institutions, tout en ayant un impact social positif.\n' },
+    {
+        icon: vision,
+        title: 'Vision',
+        texte: 'Nous aspirons à devenir le leader du nettoyage écologique B2B en France, reconnu pour notre engagement en faveur de l’environnement et notre contribution à l’inclusion sociale. Notre vision est de transformer le secteur du nettoyage en un modèle de durabilité et de responsabilité sociale, où chaque intervention contribue à la préservation de la planète et au bien-être de la communauté.'  }
 ]
 export const whyUs = [
     {

@@ -13,6 +13,11 @@ import flower from './flower.png'
 import penta from './penta.png'
 import circularArrow from './circular arrows.png'
 import logoBlack from './Logo Propre et Vert NOIR.png'
+import ecoCleaning from './eco cleaning.png'
+import about from './about.svg'
+import vision from './vision.png'
+import mission from './missions.png'
+import engagement from './engagement.png'
 
 
 export {
@@ -29,5 +34,10 @@ export {
     penta,
     flower,
     circularArrow,
-    logoBlack
+    logoBlack,
+    ecoCleaning,
+    about,
+    mission,
+    engagement,
+    vision
 }

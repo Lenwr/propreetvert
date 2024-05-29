@@ -18,9 +18,12 @@ function Owner(props) {
                               C'est la force de la passion qui crée la force de la règle
                           </h1>
                       <h1 className="text-black py-2 text-justify md:text-l">
-                          Chez Propre et Vert, nous croyons fermement en la responsabilité environnementale et sociale. Fondée sur ces valeurs, notre entreprise s'est donné pour mission de fournir des services de nettoyage écologique de la plus haute qualité tout en offrant des opportunités d'emploi et de réinsertion sociale.
-                      </h1>
-
+                          "C'est la force de la passion qui crée la force de la règle" cette citation est ce qui s'approche du mieux
+                          de la passion que j'ai de l'écologie et du green business. Par ce que je crois que tous ensemble, on
+                          peut changer les règles. Je m'appelle Aicha Sylla, je suis une jeune diplômée passionnée par le
+                          marketing digital, l'entrepreneuriat et les valeurs écologiques et solidaires. Je suis convaincu
+                          que l'alliance entre ces domaines peut créer un impact positif sur la société et
+                          l'environnement.</h1>
                   </div>
               </div>
               <div className="aicha md:w-[35%] flex flex-col justify-center items-center  ">

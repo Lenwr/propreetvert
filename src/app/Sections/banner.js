@@ -4,7 +4,7 @@ import {Poppins} from 'next/font/google'
 
 
 import "./banner.css"
-import {appText} from "@/app/constants";
+import {appText} from "../constants/index";
 
 function Banner(props) {
     return (
@@ -24,7 +24,10 @@ function Banner(props) {
                           </span>
                       </span>
                     <h1 className="text-accent text-justify md:text-l">
-                        Chez Propre et Vert, nous croyons fermement en la responsabilité environnementale et sociale. Fondée sur ces valeurs, notre entreprise s'est donné pour mission de fournir des services de nettoyage écologique de la plus haute qualité tout en offrant des opportunités d'emploi et de réinsertion sociale.
+                        Bienvenue chez Propre et Vert ! Nous sommes une entreprise de nettoyage écologique engagée à
+                        faire une différence positive pour notre planète et notre société. Notre mission est de fournir des
+                        services de nettoyage de haute qualité tout en contribuant à la réinsertion sociale des personnes
+                        éloignées du marché du travail via des partenariats avec les acteurs de l’IAE .
                     </h1>
                     <span className="flex flex-row pt-10 items-center justify-around">
                          <button className=" bg-half_primary rounded w-[40%] text-[0.8em] text-white px-8 p-4 hover:scale-110"> Nous contacter

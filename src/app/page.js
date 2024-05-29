@@ -7,6 +7,8 @@ import NosServices from "@/app/Sections/nosServices";
 import './globals.css'
 import Footer from "@/app/Sections/Footer";
 import Divider from "@/app/components/divider";
+import AboutUs from "@/app/Sections/aboutUs";
+import Valeurs from "@/app/Sections/valeurs";
 
 export default function Home() {
     return (
@@ -14,7 +16,15 @@ export default function Home() {
             <div className="app">
                 <Navbar/>
                 <Banner/>
+                <div className="about">
+                    <AboutUs/>
+                </div>
+                <div>
+                    <Valeurs/>
+                </div>
+                <div className="">
                 <Owner/>
+                </div>
                 <NosServices/>
                 <WhyUs/>
                 <Divider/>
