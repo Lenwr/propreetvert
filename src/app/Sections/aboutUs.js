@@ -11,7 +11,7 @@ function AboutUs(props) {
                   <span className=" hidden flex w-[20em] flex-row">
                       <Image className="mr-2" src={about} alt="quote" />
                       </span>
-                        <h1 className=" leading-normal  py-4 text-primary text-[32px] md:text-[3em]" >
+                        <h1 className=" leading-normal text-center  py-4 text-primary text-[32px] md:text-[3em]" >
                             À Propos
                         </h1>
                         <h1 className="text-black py-2 text-justify md:text-l">
