@@ -36,7 +36,7 @@ export const appText = {
     adresse : 'Sarcelles 95200, France' ,
     contact:'07 53 46 83 32',
     siteweb:'www.propreetvert.fr',
-    mail:'asylla@propreetvert.fr'
+    mail:'contact@propreetvert.fr'
 
 }
 
