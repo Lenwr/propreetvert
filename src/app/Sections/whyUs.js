@@ -5,10 +5,11 @@ import {appText, whyUs} from "@/app/constants";
 import Card2 from "@/app/components/card2";
 import './card2.css'
 import Link from 'next/link';
+import NousContacter from "@/app/Sections/nousContacter";
 
 function WhyUs(props) {
-    return ( <div className="m-8 ">
-            <span className="flex flex-col items-center md:pt-[2%] md:pb-[15%]">
+    return ( <div className="mx-8  ">
+            <span className="flex flex-col items-center md:pt-[10%] md:pb-[6%]">
                 <h1 className="text-2xl md:text-3xl md:py-8 font-bold text-accent">POURQUOI CHOISIR</h1>
                 <Image className="w-20 md:w-1/6" src={logo} alt="logo propre et vert" />
             </span>
@@ -19,6 +20,10 @@ function WhyUs(props) {
                     </div>
                 ))}
             </div>
+            <div className=" mb-8">
+                <NousContacter />
+            </div>
+
             <span className="flex justify-end mr-8">
                  <Link href="" >
                 <svg

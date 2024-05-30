@@ -9,10 +9,12 @@ import Footer from "@/app/Sections/Footer";
 import Divider from "@/app/components/divider";
 import AboutUs from "@/app/Sections/aboutUs";
 import Valeurs from "@/app/Sections/valeurs";
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 
 export default function Home() {
     return (
         <main>
+            <AppRouterCacheProvider>
             <div className="app">
                 <Navbar/>
                 <Banner/>
@@ -30,6 +32,7 @@ export default function Home() {
                 <Divider/>
                 <Footer/>
             </div>
+            </AppRouterCacheProvider>
         </main>
     );
 }

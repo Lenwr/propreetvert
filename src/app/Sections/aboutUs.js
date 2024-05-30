@@ -4,7 +4,7 @@ import {about, ecoCleaning} from "@/app/assets";
 
 function AboutUs(props) {
     return (
-        <div className="md:h-screen md:pt-[8%]  flex item-center">
+        <div className="md:h-screen md:pt-[8%]  flex item-center " id="section1" >
             <div className="card md:ml-[10%] md:w-[90%] w-auto md:h-[80%] flex items-center bg-white md:border-2 border-primary rounded-t-[4em] md:shadow-2xl  flex flex-col md:flex-row">
                 <div className="md:w-[60%] flex justify-center ">
                     <div className="md:w-[80%] px-4 flex flex-col pr-10 p-4 flex flex-col  leading-normal ">

@@ -18,6 +18,7 @@ import about from './about.svg'
 import vision from './vision.png'
 import mission from './missions.png'
 import engagement from './engagement.png'
+import contact from './contact.png'
 
 
 export {
@@ -39,5 +40,6 @@ export {
     about,
     mission,
     engagement,
-    vision
+    vision,
+    contact
 }
