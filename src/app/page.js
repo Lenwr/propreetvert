@@ -15,7 +15,7 @@ export default function Home() {
     return (
         <main>
             <AppRouterCacheProvider>
-            <div className="app">
+            <div className="app bg-green-50">
                 <div className="">
                     <Navbar/>
                 </div>
