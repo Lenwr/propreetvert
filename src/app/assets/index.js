@@ -19,6 +19,7 @@ import vision from './vision.png'
 import mission from './missions.png'
 import engagement from './engagement.png'
 import contact from './contact.png'
+import bg from './bg.jpg'
 
 
 export {
@@ -41,5 +42,6 @@ export {
     mission,
     engagement,
     vision,
-    contact
+    contact,
+    bg
 }

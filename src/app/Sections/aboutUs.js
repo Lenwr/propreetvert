@@ -15,7 +15,7 @@ function AboutUs(props) {
                             À Propos
                         </h1>
                         <h1 className="text-black py-2 text-justify md:text-l">
-                            Chez Propre et Vert, nous croyons fermement en la responsabilité environnementale et sociale.
+                            Nous croyons fermement en la responsabilité environnementale et sociale.
                             Fondée sur ces valeurs, notre entreprise s'est donné pour mission de fournir des services de
                             nettoyage écologique de la plus haute qualité tout en offrant des opportunités d'emploi et de
                             réinsertion sociale.</h1>

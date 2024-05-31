@@ -6,10 +6,11 @@ import Card2 from "@/app/components/card2";
 import './card2.css'
 import Link from 'next/link';
 import NousContacter from "@/app/Sections/nousContacter";
+import Owner from "@/app/Sections/owner";
 
 function WhyUs(props) {
-    return ( <div className="mx-8  ">
-            <span className="flex flex-col items-center md:pt-[10%] md:pb-[6%]">
+    return ( <div className="mx-8  py-8 ">
+            <span className="flex flex-col items-center md:pt-[10%] pb-4 md:pb-[6%]">
                 <h1 className="text-2xl md:text-3xl md:py-8 font-bold text-accent">POURQUOI CHOISIR</h1>
                 <Image className="w-20 md:w-1/6" src={logo} alt="logo propre et vert" />
             </span>
@@ -19,6 +20,9 @@ function WhyUs(props) {
                         <Card2 titleNumber={index + 1} title={item.title} texte={item.texte} />
                     </div>
                 ))}
+            </div>
+            <div className="">
+                <Owner/>
             </div>
             <div className=" mb-8">
                 <NousContacter />

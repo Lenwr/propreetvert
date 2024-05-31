@@ -66,7 +66,7 @@ function NousContacter(props) {
     };
 
     return (
-<div id="section3">
+<div id="section3" className="py-8">
     <h1 className="text-2xl md:text-3xl font-bold text-center text-accent">Nous contacter</h1>
     <div id="contact" className='flex flex-col md:flex-row justify-center mt-5'>
         <form onSubmit={(event) => sendMessage(event)}>

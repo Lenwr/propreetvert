@@ -16,16 +16,15 @@ export default function Home() {
         <main>
             <AppRouterCacheProvider>
             <div className="app">
-                <Navbar/>
+                <div className="">
+                    <Navbar/>
+                </div>
                 <Banner/>
                 <div className="about">
                     <AboutUs/>
                 </div>
                 <div>
                     <Valeurs/>
-                </div>
-                <div className="">
-                <Owner/>
                 </div>
                 <NosServices/>
                 <WhyUs/>

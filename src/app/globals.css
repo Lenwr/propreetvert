@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.app{
+  background-image: url("./assets/circular arrows.png");
+  background-repeat: no-repeat;
+  background-size: 60em;
+  background-position: center right;
+
+}
 .about{
   background-image: url("./assets/circular arrows.png");
   background-repeat: no-repeat;

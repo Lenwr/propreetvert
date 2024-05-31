@@ -66,11 +66,11 @@ export const valeurs = [
             'Favoriser la réinsertion professionnelle des personnes en difficulté via des partenariats avec des structures d’insertion par l’activité économique (IAE).'  },
     {
         icon: mission,
-        title: 'Mission',
-        texte: 'Chez Propre et Vert, notre mission est de fournir des services de nettoyage écologique de haute qualité tout en contribuant activement à la réinsertion professionnelle des personnes éloignées du marché du travail. Nous nous engageons à créer des environnements propres, sains et durables pour les entreprises et institutions, tout en ayant un impact social positif.\n' },
+        title: 'Nos missions',
+        texte: 'Notre mission est de fournir des services de nettoyage écologique de haute qualité tout en contribuant activement à la réinsertion professionnelle des personnes éloignées du marché du travail. Nous nous engageons à créer des environnements propres, sains et durables pour les entreprises et institutions, tout en ayant un impact social positif.\n' },
     {
         icon: vision,
-        title: 'Vision',
+        title: 'Notre vision',
         texte: 'Nous aspirons à devenir le leader du nettoyage écologique B2B en France, reconnu pour notre engagement en faveur de l’environnement et notre contribution à l’inclusion sociale. Notre vision est de transformer le secteur du nettoyage en un modèle de durabilité et de responsabilité sociale, où chaque intervention contribue à la préservation de la planète et au bien-être de la communauté.'  }
 ]
 export const whyUs = [

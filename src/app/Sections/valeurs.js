@@ -4,7 +4,7 @@ import Card from "@/app/components/card";
 
 function Valeurs(props) {
     return (
-        <div className="  flex flex-col items-center h-auto ">
+        <div className=" flex flex-col items-center h-auto ">
             <div className="flex flex-col md:flex-row mt-10 md:mt-20 justify-center">
                 {valeurs.map((item, index) => (
                     <div key={index} className="w-full md:w-[30%] px-8 mb-8 md:mb-0">
