@@ -2,7 +2,7 @@
 import React, {useState} from 'react'
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
-import {contact, vision} from "@/app/assets";
+import {contact, vision} from "../../../public";
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
@@ -74,7 +74,7 @@ function NousContacter(props) {
 
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 items-center justify-evenly px-10 '>
-                <Image src={contact} alt="" className="md:w-[40em] md:px-8"/>
+                <img src="/contact.png" alt="" className="md:w-[40em] md:px-8"/>
                 <div className='w-full'>
                     <div className=" flex flex-col">
                         <label className='text-black '> Nom</label>

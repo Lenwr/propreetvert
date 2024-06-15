@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import {aboutUs, logo} from "@/app/assets";
+import {aboutUs, logo} from "../../../public";
 import {appText, whyUs} from "@/app/constants";
 import Card2 from "@/app/components/card2";
 import './card2.css'
@@ -12,7 +12,7 @@ function WhyUs(props) {
     return ( <div className="mx-8  py-8 ">
             <span className="flex flex-col items-center md:pt-[10%] pb-4 md:pb-[6%]">
                 <h1 className="text-2xl md:text-3xl md:py-8 font-bold text-accent">POURQUOI CHOISIR</h1>
-                <Image className="w-20 md:w-1/6" src={logo} alt="logo propre et vert" />
+                <img className="w-20 md:w-1/6" src="/logo.png" alt="logo propre et vert" />
             </span>
             <div className="flex flex-col md:flex-wrap md:flex-row justify-center">
                 {whyUs.map((item, index) => (

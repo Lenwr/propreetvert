@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import {about, ecoCleaning} from "@/app/assets";
+import {about, ecoCleaning} from "../../../public";
 
 function AboutUs(props) {
     return (
@@ -9,7 +9,7 @@ function AboutUs(props) {
                 <div className="md:w-[60%] flex justify-center ">
                     <div className="md:w-[80%] px-4 flex flex-col pr-10 p-4 flex flex-col  leading-normal ">
                   <span className=" hidden flex w-[20em] flex-row">
-                      <Image className="mr-2" src={about} alt="quote" />
+                      <img className="mr-2" src="/about.svg" alt="quote" />
                       </span>
                         <h1 className=" leading-normal text-center  py-4 text-primary text-[32px] md:text-[3em]" >
                             À Propos

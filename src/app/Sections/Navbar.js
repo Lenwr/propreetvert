@@ -1,7 +1,7 @@
 "use client";
 import {menuNavbar} from "@/app/constants";
 import Image from "next/image";
-import {instagram, logo, twitter} from "@/app/assets";
+import {instagram, logo, twitter} from "../../../public";
 import Link from 'next/link';
 import {useState} from "react";
 
@@ -10,7 +10,7 @@ function Navbar(props) {
     return (
         <div className="">
             <div className=' md:w-full  md:bg-white  flex flex-row items-center opacity-100 justify-between px-4 h-[80px]  '>
-                <Image className="w-[80px] md:ml-[10%]" src={logo} alt="logo" />
+                <img className="w-[80px] md:ml-[10%]" src="/logo.png" alt="logo" />
                 <div className="hidden md:flex md:mr-[10%] ">
                     {
                         menuNavbar.map((item, index) => (
@@ -20,8 +20,8 @@ function Navbar(props) {
                           </Link>
                         ))
                     }
-                    <Image className="w-6 h-6 ml-2" src={twitter} alt="twitter logo" />
-                    <Image className="w-6 h-6 ml-4 " src={instagram} alt="instagram logo" />
+                    <img className="w-6 h-6 ml-2" src="/twitter.png" alt="twitter logo" />
+                    <img className="w-6 h-6 ml-4 " src="/instagram.png" alt="instagram logo" />
                 </div>
                 <div className=" mg:hidden lg:hidden">
                     {!toggle?

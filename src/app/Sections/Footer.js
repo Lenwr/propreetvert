@@ -1,7 +1,7 @@
 import React from 'react';
 import {appText} from "@/app/constants";
 import Image from "next/image";
-import {logo} from "@/app/assets";
+import {logo} from "../../../public";
 import Map from "@/app/components/map";
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
@@ -11,7 +11,7 @@ function Footer(props) {
     return (
         <div className="mb-10 flex flex-col md:flex-row md:justify-between items-center px-10">
             <div className="logo mb-8 md:mb-0">
-                <Image className="w-32" src={logo} alt="logo noir" />
+                <img className="w-32" src="/logo.png" alt="logo noir" />
             </div>
             <div className="address mb-8 md:mb-0 text-center md:text-left">
                 <p>{appText.adresse}</p>

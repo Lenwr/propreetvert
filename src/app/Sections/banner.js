@@ -1,10 +1,11 @@
 import Image from "next/image";
-import {logo, goal, bannerPicture} from "@/app/assets";
+import {logo, goal, bannerPicture} from "../../../public";
 import {Poppins} from 'next/font/google'
 
 
 import "./banner.css"
-import {appText} from "../constants/index";
+import {appText, menuNavbar} from "../constants/index";
+import Link from "next/link";
 
 function Banner(props) {
     return (
@@ -30,14 +31,15 @@ function Banner(props) {
                         éloignées du marché du travail via des partenariats avec les acteurs de l’IAE .
                     </h1>
                     <span className="flex flex-row pt-10 items-center justify-around">
-                         <button className=" bg-half_primary rounded w-[40%] text-[0.8em] text-white px-8 p-4 hover:scale-110"> Nous contacter
+                         <button className=" bg-half_primary rounded w-[40%] text-[0.8em] text-white px-8 p-4 hover:scale-110"> <Link href={"#"+menuNavbar[2].section}>Nous contacter</Link>
                     </button>
-                        <p className="w-[40%] text-accent underline  text-[0.8em] ">voir tous nos services </p>
+
+                        <p className="w-[40%] text-accent underline  text-[0.8em] "><Link href={"#"+menuNavbar[1].section}>voir tous nos services</Link> </p>
                     </span>
 
                 </div>
 
-                <Image className="md:w-[55%] w-[100%] border-primary rounded " src={bannerPicture} alt=""/>
+                <img className="md:w-[55%] w-[100%] border-primary rounded " src="/bannerPicture.png" alt=""/>
 
             </div>
         </div>

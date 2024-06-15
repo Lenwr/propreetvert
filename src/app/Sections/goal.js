@@ -1,7 +1,7 @@
 import React from 'react';
 import {appText} from "@/app/constants";
 import Image from "next/image";
-import {banner, goal} from "@/app/assets";
+import {banner, goal} from "../../../public";
 import "./goal.css"
 import {CloudArrowUpIcon, LockClosedIcon, ServerIcon} from '@heroicons/react/20/solid'
 import SectionTitle from "@/app/components/sectionTitle";

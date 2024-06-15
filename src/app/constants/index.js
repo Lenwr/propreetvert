@@ -1,4 +1,4 @@
-import {engagement, flower, mission, pencil, penta, vision} from "@/app/assets";
+import {engagement, flower, mission, pencil, penta, vision} from "../../../public";
 
 export const menuNavbar = [
     {
@@ -42,34 +42,34 @@ export const appText = {
 
 export const services = [
     {
-        icon: flower,
+        icon: '/flower.png',
         title: 'Nettoyage Écologique Certifié',
         texte: 'Notre équipe utilise exclusivement des produits de nettoyage écologiques certifiés, garantissant non seulement un environnement sain, mais aussi des résultats impeccables.'
     },
     {
-        icon: pencil,
+        icon: '/pencil.png',
         title: 'Services Personnalisés',
         texte: 'Chaque client est unique. Nos services de nettoyage sont adaptés à vos besoins spécifiques. Que vous ayez un petit bureau ou un grand espace industriel, nous avons la solution.',
     },
     {
-        icon: penta,
+        icon: '/penta.png',
         title: 'Réinsertion Sociale',
         texte: 'Nous mettons l’accent sur la réinsertion sociale en offrant des opportunités d’emploi à ceux qui cherchent à rebondir dans la vie via nos partenariats avec les IAE de la région.',
     }
 ]
 export const valeurs = [
     {
-        icon: engagement,
+        icon: '/engagement.png',
         title: 'Notre Engagement',
         texte:
             'Réduire notre empreinte écologique en utilisant des produits et techniques durables.\n' +
             'Favoriser la réinsertion professionnelle des personnes en difficulté via des partenariats avec des structures d’insertion par l’activité économique (IAE).'  },
     {
-        icon: mission,
+        icon: '/missions.png',
         title: 'Nos missions',
         texte: 'Notre mission est de fournir des services de nettoyage écologique de haute qualité tout en contribuant activement à la réinsertion professionnelle des personnes éloignées du marché du travail. Nous nous engageons à créer des environnements propres, sains et durables pour les entreprises et institutions, tout en ayant un impact social positif.\n' },
     {
-        icon: vision,
+        icon: '/vision.png',
         title: 'Notre vision',
         texte: 'Nous aspirons à devenir le leader du nettoyage écologique B2B en France, reconnu pour notre engagement en faveur de l’environnement et notre contribution à l’inclusion sociale. Notre vision est de transformer le secteur du nettoyage en un modèle de durabilité et de responsabilité sociale, où chaque intervention contribue à la préservation de la planète et au bien-être de la communauté.'  }
 ]
