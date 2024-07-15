@@ -24,7 +24,9 @@ export default function Home() {
                 <div>
                     <Valeurs/>
                 </div>
-                <NosServices/>
+                <div>
+                    <NosServices/>
+                </div>
                 <WhyUs/>
                 <Divider/>
                 <Footer/>

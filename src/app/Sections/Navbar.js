@@ -20,8 +20,9 @@ function Navbar(props) {
                           </Link>
                         ))
                     }
-                    <img className="w-6 h-6 ml-2" src="/twitter.png" alt="twitter logo" />
-                    <img className="w-6 h-6 ml-4 " src="/instagram.png" alt="instagram logo" />
+
+                <a href="https://www.linkedin.com/company/propre-et-vert/">
+                    <img className="w-8 h-8 ml-4 " src="/linkedin.png" alt="linkedin logo" /> </a>
                 </div>
                 <div className=" mg:hidden lg:hidden">
                     {!toggle?
